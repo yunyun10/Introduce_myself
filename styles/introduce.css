@@ -80,8 +80,8 @@ font-size: 15px;
   .Profile {
  
    position :absolute;
-   top:230px;
-   left:659px;
+   top:200px;
+   left:750px;
    font-family:Plantagenet Cherokee;
    border-bottom:15px bold black;
 
@@ -101,8 +101,28 @@ font-size: 15px;
 
 
   }
+
+  .introduce {
+     
+    position: absolute;
+    top:280px;
+    left: 600px;
+    padding: 40px;
+   
+
+  }
+
+  .introduce dt {
+    font-size: 28px;
+ letter-spacing: 3px;
+ font-family:Plantagenet Cherokee;
+ margin-top: 15px;
+
+  }
   
+  .introduce dd {
+    font-size:23px;
+  }
     
 
-  
-    
+ 
