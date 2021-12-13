@@ -26,7 +26,14 @@
 
 
   }
+　
+   .footer-outline {
 
+   position: absolute;
+   bottom:0;
+
+
+  }
 
   .footer-nav-item {
 
@@ -59,12 +66,12 @@ font-size: 15px;
     padding: 0;
   }
    
-  #footer01 {
+  .footer-outline {
     position: relative;
     background:wheat;
   }
    
-  #footer01 .logo {
+ .footer-outline .logo {
     text-align: center;
     padding: 5px 0;
     border-bottom: 1px solid tan;
@@ -87,9 +94,15 @@ font-size: 15px;
     top:150px;
     left:100px;
     
+  }
 
+  .name {
+    font-family:Plantagenet Cherokee;
 
 
   }
+  
+    
 
+  
     
