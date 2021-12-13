@@ -22,6 +22,7 @@
   .pic {
       
        text-align: center;
+      width: 1245px;
 
 
   }
@@ -30,6 +31,7 @@
   .footer-nav-item {
 
     font-family: Apple Chancery;
+    font-size: 25px;
     color: #5d6d7e;
     display:inline-block;
    padding-left: 250px;
@@ -38,6 +40,13 @@
   .footer-nav-item li {
 
    display:inline-block;
+
+  }
+
+  .copyright p {
+
+font-family: Apple Chancery;
+font-size: 15px;
 
   }
 
@@ -52,28 +61,35 @@
    
   #footer01 {
     position: relative;
-    background:darksalmon;
+    background:wheat;
   }
    
   #footer01 .logo {
     text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #111;
+    padding: 5px 0;
+    border-bottom: 1px solid tan;
   }
    
-  #footer01 .logo a {
-    display: inline-block;
+  .Profile {
+ 
+   position :absolute;
+   top:230px;
+   left:659px;
+   font-family:Plantagenet Cherokee;
+   border-bottom:15px bold black;
+
   }
-   
-  #footer01 .logo img {
-    width: 120px;
+
+  .profile-logo img{
+
+    width:380px;
+    position :absolute;
+    top:150px;
+    left:100px;
+    
+
+
+
   }
-   
-  #footer01 .nav a {
-    display: block;
-    padding: 0 10px;
-    color: #ccc;
-  }
-   
-  
+
     
