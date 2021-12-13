@@ -1,0 +1,79 @@
+   .header-logo{
+    float: left;
+
+
+   }
+ 
+
+  .header-nav-item {
+    float: right;
+    padding-right: 180px;
+    margin-top: 65px;
+    margin-bottom: 60px;
+     font-size: 28px;
+    font-family: Apple Chancery;
+    font-weight: bold;
+    color: #5d6d7e;
+    text-align: center;
+    list-style: none;
+  }
+
+  
+  .pic {
+      
+       text-align: center;
+
+
+  }
+
+
+  .footer-nav-item {
+
+    font-family: Apple Chancery;
+    color: #5d6d7e;
+    display:inline-block;
+   padding-left: 250px;
+
+  }
+  .footer-nav-item li {
+
+   display:inline-block;
+
+  }
+
+
+
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+   
+  #footer01 {
+    position: relative;
+    background:darksalmon;
+  }
+   
+  #footer01 .logo {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #111;
+  }
+   
+  #footer01 .logo a {
+    display: inline-block;
+  }
+   
+  #footer01 .logo img {
+    width: 120px;
+  }
+   
+  #footer01 .nav a {
+    display: block;
+    padding: 0 10px;
+    color: #ccc;
+  }
+   
+  
+    
