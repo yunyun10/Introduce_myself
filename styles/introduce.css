@@ -27,10 +27,15 @@
 
   }
 　
+  .m {
+        height: 6000px;
+
+  }
    .footer-outline {
 
    position: absolute;
    bottom:0;
+   
 
 
   }
@@ -81,7 +86,7 @@ font-size: 15px;
  
    position :absolute;
    top:200px;
-   left:750px;
+   left:600px;
    font-family:Plantagenet Cherokee;
    border-bottom:15px bold black;
 
@@ -106,8 +111,10 @@ font-size: 15px;
      
     position: absolute;
     top:280px;
-    left: 600px;
+    left: 550px;
     padding: 40px;
+    
+    
    
 
   }
@@ -125,4 +132,57 @@ font-size: 15px;
   }
     
 
- 
+.self-title {
+  position: absolute;
+  font-family:Plantagenet Cherokee;
+  text-align: center;
+    top:650px;
+    left: 620px;
+}
+
+.self-introduction {
+position:absolute;
+top:750px;
+left:490px;
+
+text-align: center;
+
+
+
+}
+
+.hobby {
+  font-family:Plantagenet Cherokee;
+  position: absolute;
+    top:220px;
+    left: 660px;
+    
+}
+
+.hobby-details {
+  
+  position: absolute;
+    top:300px;
+    left: 115px;
+    text-align: center;
+    
+    
+}
+
+.hobby-details dt {
+font-size: 28px;
+font-family:Plantagenet Cherokee;
+margin-top: 25px;
+}
+
+.hobby-details dd {
+ font-size: 18px;
+ margin-top: 10px;
+
+}
+
+.hobby-details a {
+
+color:pink;
+
+}
