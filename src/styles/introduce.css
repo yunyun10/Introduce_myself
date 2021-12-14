@@ -186,3 +186,14 @@ margin-top: 25px;
 color:pink;
 
 }
+
+.hobby-photos{
+  float: left;
+  width: 25%;
+}
+
+.hobby-icon {
+
+width:200px;
+
+}
