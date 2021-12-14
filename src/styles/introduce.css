@@ -1,8 +1,8 @@
-   .header-logo{
-    float: left;
+.header-logo{
+  float: left;
 
 
-   }
+ }
  
 
   .header-nav-item {
@@ -19,15 +19,17 @@
   }
 
   
-  .pic {
-      
-       text-align: center;
-      width: 1245px;
-      position: relative;
-      left:100px;
 
 
-  }
+.pic {
+clear: both;
+padding-left: 140px;
+
+}
+
+  
+  
+  
 　
   .m {
         height: 6000px;
