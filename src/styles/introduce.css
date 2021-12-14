@@ -23,6 +23,8 @@
       
        text-align: center;
       width: 1245px;
+      position: relative;
+      left:100px;
 
 
   }
@@ -73,7 +75,7 @@ font-size: 15px;
    
   .footer-outline {
     position: relative;
-    background:wheat;
+    background:#00CED1;
   }
    
  .footer-outline .logo {
@@ -187,13 +189,104 @@ color:pink;
 
 }
 
-.hobby-photos{
-  float: left;
-  width: 25%;
+
+.hobby-heading {
+position: absolute;
+top:800px;
+left:550px;
+font-family:Plantagenet Cherokee;
+font-size: 25px;
+
 }
 
-.hobby-icon {
 
-width:200px;
+.hobby-photos {
+
+  position: absolute;
+  top:850px;
+  font-family:Plantagenet Cherokee;
+
 
 }
+
+
+
+
+
+  
+  
+.hobby-icon1 {
+ 
+  position: absolute;
+  left:200px;
+
+}
+
+
+
+
+.hobby-icon2 {
+ 
+  position: absolute;
+  left:600px;
+  top:100px
+
+}
+
+.hobby-icon3 {
+
+  position :absolute;
+  left:980px;
+  top:100px;
+}
+ 
+
+.photo1 {
+position: relative;
+
+
+}
+
+.photo2 {
+  position: relative;
+  left:250px;
+  
+  }
+
+  .photo3 {
+    position: relative;
+    left:250px;
+    
+    }
+
+    .photo4 {
+      position: relative;
+      left:230px;
+      
+      }
+
+      .photo5 {
+        position: relative;
+        left:250px;
+        
+        }
+
+        .photo6{
+          position: relative;
+          left:180px;
+          
+          }
+
+          .photo7 {
+            position: relative;
+            left:200px;
+            
+            }
+            
+          
+        
+      
+    
+  
+
+
