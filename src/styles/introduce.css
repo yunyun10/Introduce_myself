@@ -1,294 +1,196 @@
-.header-logo{
-  float: left;
-
-
- }
- 
-
-  .header-nav-item {
-    float: right;
-    padding-right: 180px;
-    margin-top: 65px;
-    margin-bottom: 60px;
-     font-size: 28px;
-    font-family: Apple Chancery;
-    font-weight: bold;
-    color: #5d6d7e;
-    text-align: center;
-    list-style: none;
-  }
-
-  
-
-
-.pic {
-clear: both;
-padding-left: 140px;
-
-}
-
-  
-  
-  
-　
-  .m {
-        height: 6000px;
-
-  }
-   .footer-outline {
-
-   position: absolute;
-   bottom:0;
-   
-
-
-  }
-
-  .footer-nav-item {
-
-    font-family: Apple Chancery;
-    font-size: 25px;
-    color: #5d6d7e;
-    display:inline-block;
-   padding-left: 250px;
-
-  }
-  .footer-nav-item li {
-
-   display:inline-block;
-
-  }
-
-  .copyright p {
-
-font-family: Apple Chancery;
-font-size: 15px;
-
-  }
-
-
-
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-   
-  .footer-outline {
-    position: relative;
-    background:#00CED1;
-  }
-   
- .footer-outline .logo {
-    text-align: center;
-    padding: 5px 0;
-    border-bottom: 1px solid tan;
-  }
-   
-  .Profile {
- 
-   position :absolute;
-   top:200px;
-   left:600px;
-   font-family:Plantagenet Cherokee;
-   border-bottom:15px bold black;
-
-  }
-
-  .profile-logo img{
-
-    width:380px;
-    position :absolute;
-    top:150px;
-    left:100px;
-    
-  }
-
-  .name {
-    font-family:Plantagenet Cherokee;
-
-
-  }
-
-  .introduce {
-     
-    position: absolute;
-    top:280px;
-    left: 550px;
-    padding: 40px;
-    
-    
-   
-
-  }
-
-  .introduce dt {
-    font-size: 28px;
- letter-spacing: 3px;
- font-family:Plantagenet Cherokee;
- margin-top: 15px;
-
-  }
-  
-  .introduce dd {
-    font-size:23px;
-  }
-    
-
-.self-title {
-  position: absolute;
-  font-family:Plantagenet Cherokee;
-  text-align: center;
-    top:650px;
-    left: 620px;
-}
-
-.self-introduction {
-position:absolute;
-top:750px;
-left:490px;
-
-text-align: center;
-
-
-
-}
-
-.hobby {
-  font-family:Plantagenet Cherokee;
-  position: absolute;
-    top:220px;
-    left: 660px;
-    
-}
-
-.hobby-details {
-  
-  position: absolute;
-    top:300px;
-    left: 115px;
-    text-align: center;
-    
-    
-}
-
-.hobby-details dt {
-font-size: 28px;
-font-family:Plantagenet Cherokee;
-margin-top: 25px;
-}
-
-.hobby-details dd {
- font-size: 18px;
- margin-top: 10px;
-
-}
-
-.hobby-details a {
-
-color:pink;
-
-}
-
-
-.hobby-heading {
-position: absolute;
-top:800px;
-left:550px;
-font-family:Plantagenet Cherokee;
-font-size: 25px;
-
-}
-
-
-.hobby-photos {
-
-  position: absolute;
-  top:850px;
-  font-family:Plantagenet Cherokee;
-
-
-}
-
-
-
-
-
-  
-  
-.hobby-icon1 {
- 
-  position: absolute;
-  left:200px;
-
-}
-
-
-
-
-.hobby-icon2 {
- 
-  position: absolute;
-  left:600px;
-  top:100px
-
-}
-
-.hobby-icon3 {
-
-  position :absolute;
-  left:980px;
-  top:100px;
-}
- 
-
-.photo1 {
-position: relative;
-
-
-}
-
-.photo2 {
-  position: relative;
-  left:250px;
-  
-  }
-
-  .photo3 {
-    position: relative;
-    left:250px;
-    
-    }
-
-    .photo4 {
-      position: relative;
-      left:230px;
-      
-      }
-
-      .photo5 {
-        position: relative;
-        left:250px;
-        
+        .header-logo {
+            float: left;
         }
-
-        .photo6{
-          position: relative;
-          left:180px;
-          
-          }
-
-          .photo7 {
-            position: relative;
-            left:200px;
-            
-            }
-            
-          
         
-      
-    
-  
-
-
+        .header-nav-item {
+            float: right;
+            padding-right: 180px;
+            margin-top: 65px;
+            margin-bottom: 60px;
+            font-size: 28px;
+            font-family: Apple Chancery;
+            font-weight: bold;
+            color: #5d6d7e;
+            text-align: center;
+            list-style: none;
+        }
+        
+        .pic {
+            clear: both;
+            padding-left: 140px;
+            padding-bottom: 50px;
+        }
+        
+        .m {
+            height: 6000px;
+        }
+        
+        .footer-outline {
+            position: absolute;
+            bottom: 0;
+        }
+        
+        .footer-nav-item {
+            font-family: Apple Chancery;
+            font-size: 25px;
+            color: #5d6d7e;
+            display: inline-block;
+            padding-left: 250px;
+        }
+        
+        .footer-nav-item li {
+            display: inline-block;
+        }
+        
+        .copyright p {
+            font-family: Apple Chancery;
+            font-size: 15px;
+        }
+        
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .footer-outline {
+            position: relative;
+            background: #00CED1;
+        }
+        
+        .Profile {
+            position: absolute;
+            top: 200px;
+            left: 570px;
+            font-family: Plantagenet Cherokee;
+            border-bottom: 15px bold black;
+            font-size: 40px;
+        }
+        
+        .profile-logo img {
+            width: 380px;
+            position: absolute;
+            top: 150px;
+            left: 100px;
+        }
+        
+        .name {
+            font-family: Plantagenet Cherokee;
+        }
+        
+        .introduce {
+            position: absolute;
+            top: 280px;
+            left: 570px;
+            padding: 40px;
+        }
+        
+        .introduce dt {
+            font-size: 28px;
+            letter-spacing: 3px;
+            font-family: Plantagenet Cherokee;
+            margin-top: 15px;
+        }
+        
+        .introduce dd {
+            font-size: 23px;
+        }
+        
+        .self-title {
+            position: absolute;
+            font-family: Plantagenet Cherokee;
+            text-align: center;
+            top: 650px;
+            left: 560px;
+            font-size: 28px;
+        }
+        
+        .self-introduction {
+            position: absolute;
+            top: 750px;
+            left: 580px;
+            font-size: 20px;
+            padding-bottom: 80px;
+        }
+        
+        .hobby {
+            font-family: Plantagenet Cherokee;
+            position: absolute;
+            top: 220px;
+            left: 530px;
+            font-size: 40px;
+        }
+        
+        .hobby-details {
+            position: absolute;
+            top: 300px;
+            left: 115px;
+            text-align: center;
+        }
+        
+        .hobby-details dt {
+            font-size: 28px;
+            font-family: Plantagenet Cherokee;
+            margin-top: 25px;
+        }
+        
+        .hobby-details dd {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        
+        .hobby-details a {
+            color: pink;
+        }
+        
+        .hobby-icon1 {
+            position: absolute;
+            left: 550px;
+            top: 500px;
+        }
+        
+        .hobby-icon2 {
+            position: absolute;
+            left: 600px;
+            top: 100px
+        }
+        
+        .hobby-icon3 {
+            position: absolute;
+            left: 980px;
+            top: 100px;
+        }
+        
+        .photo1 {
+            position: relative;
+        }
+        
+        .photo2 {
+            position: relative;
+            left: 250px;
+        }
+        
+        .photo3 {
+            position: relative;
+            left: 250px;
+        }
+        
+        .photo4 {
+            position: relative;
+            left: 230px;
+        }
+        
+        .photo5 {
+            position: relative;
+            left: 250px;
+        }
+        
+        .photo6 {
+            position: relative;
+            left: 180px;
+        }
+        
+        .photo7 {
+            position: relative;
+            left: 200px;
+        }
