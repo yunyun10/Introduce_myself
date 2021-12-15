@@ -50,7 +50,7 @@
         padding-left: 250px;
     }
     
-    .footer-nav-item li {
+    p . .footer-nav-item li {
         display: inline-block;
     }
     
@@ -173,36 +173,6 @@
         top: 100px;
     }
     
-    .photo1 {
-        position: relative;
-    }
-    
-    .photo2 {
-        position: relative;
-        left: 250px;
-    }
-    
-    .photo3 {
-        position: relative;
-        left: 250px;
-    }
-    
-    .photo4 {
-        position: relative;
-        left: 230px;
-    }
-    
-    .photo5 {
-        position: relative;
-        left: 250px;
-    }
-    
-    .photo6 {
-        position: relative;
-        left: 180px;
-    }
-    
-    .photo7 {
-        position: relative;
-        left: 200px;
+    .photos {
+        text-align: center;
     }
