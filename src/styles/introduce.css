@@ -1,196 +1,208 @@
-        .header-logo {
-            float: left;
-        }
-        
-        .header-nav-item {
-            float: right;
-            padding-right: 180px;
-            margin-top: 65px;
-            margin-bottom: 60px;
-            font-size: 28px;
-            font-family: Apple Chancery;
-            font-weight: bold;
-            color: #5d6d7e;
-            text-align: center;
-            list-style: none;
-        }
-        
-        .pic {
-            clear: both;
-            padding-left: 140px;
-            padding-bottom: 50px;
-        }
-        
-        .m {
-            height: 6000px;
-        }
-        
-        .footer-outline {
-            position: absolute;
-            bottom: 0;
-        }
-        
-        .footer-nav-item {
-            font-family: Apple Chancery;
-            font-size: 25px;
-            color: #5d6d7e;
-            display: inline-block;
-            padding-left: 250px;
-        }
-        
-        .footer-nav-item li {
-            display: inline-block;
-        }
-        
-        .copyright p {
-            font-family: Apple Chancery;
-            font-size: 15px;
-        }
-        
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .footer-outline {
-            position: relative;
-            background: #00CED1;
-        }
-        
-        .Profile {
-            position: absolute;
-            top: 200px;
-            left: 570px;
-            font-family: Plantagenet Cherokee;
-            border-bottom: 15px bold black;
-            font-size: 40px;
-        }
-        
-        .profile-logo img {
-            width: 380px;
-            position: absolute;
-            top: 150px;
-            left: 100px;
-        }
-        
-        .name {
-            font-family: Plantagenet Cherokee;
-        }
-        
-        .introduce {
-            position: absolute;
-            top: 280px;
-            left: 570px;
-            padding: 40px;
-        }
-        
-        .introduce dt {
-            font-size: 28px;
-            letter-spacing: 3px;
-            font-family: Plantagenet Cherokee;
-            margin-top: 15px;
-        }
-        
-        .introduce dd {
-            font-size: 23px;
-        }
-        
-        .self-title {
-            position: absolute;
-            font-family: Plantagenet Cherokee;
-            text-align: center;
-            top: 650px;
-            left: 560px;
-            font-size: 28px;
-        }
-        
-        .self-introduction {
-            position: absolute;
-            top: 750px;
-            left: 580px;
-            font-size: 20px;
-            padding-bottom: 80px;
-        }
-        
-        .hobby {
-            font-family: Plantagenet Cherokee;
-            position: absolute;
-            top: 220px;
-            left: 530px;
-            font-size: 40px;
-        }
-        
-        .hobby-details {
-            position: absolute;
-            top: 300px;
-            left: 115px;
-            text-align: center;
-        }
-        
-        .hobby-details dt {
-            font-size: 28px;
-            font-family: Plantagenet Cherokee;
-            margin-top: 25px;
-        }
-        
-        .hobby-details dd {
-            font-size: 18px;
-            margin-top: 10px;
-        }
-        
-        .hobby-details a {
-            color: pink;
-        }
-        
-        .hobby-icon1 {
-            position: absolute;
-            left: 550px;
-            top: 500px;
-        }
-        
-        .hobby-icon2 {
-            position: absolute;
-            left: 600px;
-            top: 100px
-        }
-        
-        .hobby-icon3 {
-            position: absolute;
-            left: 980px;
-            top: 100px;
-        }
-        
-        .photo1 {
-            position: relative;
-        }
-        
-        .photo2 {
-            position: relative;
-            left: 250px;
-        }
-        
-        .photo3 {
-            position: relative;
-            left: 250px;
-        }
-        
-        .photo4 {
-            position: relative;
-            left: 230px;
-        }
-        
-        .photo5 {
-            position: relative;
-            left: 250px;
-        }
-        
-        .photo6 {
-            position: relative;
-            left: 180px;
-        }
-        
-        .photo7 {
-            position: relative;
-            left: 200px;
-        }
+    header {
+        height: 150px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        background-color: white;
+    }
+    
+    .header-logo {
+        float: left;
+    }
+    
+    .header-nav-item {
+        display: inline-block;
+        padding: 60px;
+        font-size: 28px;
+        font-family: Apple Chancery;
+        font-weight: bold;
+        color: #5d6d7e;
+        list-style: none;
+    }
+    
+    .container {
+        width: 1170px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    
+    .pic {
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .m {
+        height: 6000px;
+    }
+    
+    .footer-outline {
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .footer-nav-item {
+        font-family: Apple Chancery;
+        font-size: 25px;
+        color: #5d6d7e;
+        display: inline-block;
+        padding-left: 250px;
+    }
+    
+    .footer-nav-item li {
+        display: inline-block;
+    }
+    
+    .copyright p {
+        font-family: Apple Chancery;
+        font-size: 15px;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .footer-outline {
+        position: relative;
+        background: #00CED1;
+    }
+    
+    .Profile {
+        position: absolute;
+        top: 200px;
+        left: 570px;
+        font-family: Plantagenet Cherokee;
+        border-bottom: 15px bold black;
+        font-size: 40px;
+    }
+    
+    .profile-logo img {
+        width: 380px;
+        position: absolute;
+        top: 150px;
+        left: 100px;
+    }
+    
+    .name {
+        font-family: Plantagenet Cherokee;
+    }
+    
+    .introduce {
+        position: absolute;
+        top: 280px;
+        left: 570px;
+        padding: 40px;
+    }
+    
+    .introduce dt {
+        font-size: 28px;
+        letter-spacing: 3px;
+        font-family: Plantagenet Cherokee;
+        margin-top: 15px;
+    }
+    
+    .introduce dd {
+        font-size: 23px;
+    }
+    
+    .self-title {
+        position: absolute;
+        font-family: Plantagenet Cherokee;
+        text-align: center;
+        top: 650px;
+        left: 560px;
+        font-size: 28px;
+    }
+    
+    .self-introduction {
+        position: absolute;
+        top: 750px;
+        left: 580px;
+        font-size: 20px;
+        padding-bottom: 80px;
+    }
+    
+    .hobby {
+        font-family: Plantagenet Cherokee;
+        position: absolute;
+        top: 220px;
+        left: 530px;
+        font-size: 40px;
+    }
+    
+    .hobby-details {
+        position: absolute;
+        top: 300px;
+        left: 115px;
+        text-align: center;
+    }
+    
+    .hobby-details dt {
+        font-size: 28px;
+        font-family: Plantagenet Cherokee;
+        margin-top: 25px;
+    }
+    
+    .hobby-details dd {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .hobby-details a {
+        color: pink;
+    }
+    
+    .hobby-icon1 {
+        position: absolute;
+        left: 550px;
+        top: 500px;
+    }
+    
+    .hobby-icon2 {
+        position: absolute;
+        left: 600px;
+        top: 100px
+    }
+    
+    .hobby-icon3 {
+        position: absolute;
+        left: 980px;
+        top: 100px;
+    }
+    
+    .photo1 {
+        position: relative;
+    }
+    
+    .photo2 {
+        position: relative;
+        left: 250px;
+    }
+    
+    .photo3 {
+        position: relative;
+        left: 250px;
+    }
+    
+    .photo4 {
+        position: relative;
+        left: 230px;
+    }
+    
+    .photo5 {
+        position: relative;
+        left: 250px;
+    }
+    
+    .photo6 {
+        position: relative;
+        left: 180px;
+    }
+    
+    .photo7 {
+        position: relative;
+        left: 200px;
+    }
